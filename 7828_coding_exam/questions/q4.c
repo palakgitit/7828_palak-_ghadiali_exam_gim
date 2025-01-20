@@ -9,7 +9,7 @@ void main ()
     printf(" enter the  tempreture : ");
     scanf ("%d",&C);
 
-   C = (F - 32 )* 5 / 9;
+   F= ( C * 5 / 9) +32; 
 
     printf(" Your temp is %d",F);
 
